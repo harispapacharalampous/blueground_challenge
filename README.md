@@ -1,1 +1,8 @@
 # blueground_challenge
+Blueground Coding Challenge
+Summary
+
+
+	The requested application for the challenge is developed in Java, exported as an runnable JAR file. It can be executed by double clicking the icon on the “blg_challenge_f.jar” file and the output files will be generated in the same directory that the .JAR file is located. The application obtains data in the form of a JSON file, where the fields and values needed are retrieved and presented as a table in a .txt file (output_table.txt).
+	The application uses different Java methods in order to complete the above functionality. The JsonFromUrl method has the required URL as input and returns an JSONObject. This method utilizes the InputStream and BufferedReader imported java.io packages as well as the readAll method. The readAll method takes a Reader, a BufferedReader in this case, and appends its content on a StringBuilder which is later converted to a String with the .toString() method. The table_init method initializes the values of the public 2 dimensional array which will later contain all the data needed as output. the Java method named TextFileWriter creates the output file output_table.txt and prints the 2 dimensional array with all the output data. Finally the main method of the Java application creates a sequence of the above mentioned methods and executes the commands needed in order to access certain values from the JSONObject. Along with the output_table.txt  another file is created, raw_file.txt, which holds the raw JSON data from the URL.
+	By double-clicking the application, the application outputs the 2 .txt files and a dialog window is created in order to inform the user. When the user click OK or closes the dialog window, the application stops operating. 

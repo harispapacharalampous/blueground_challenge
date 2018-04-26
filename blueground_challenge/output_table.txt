@@ -1,0 +1,5 @@
+Metric 	 | 	Value 	 | 	
+Max percentage Humidity 	 | 	93 	 | 	
+Max Temp in C 	 | 	16 	 | 	
+Min Temp in C 	 | 	8 	 | 	
+Precipitation in mm 	 | 	6.35 	 | 	

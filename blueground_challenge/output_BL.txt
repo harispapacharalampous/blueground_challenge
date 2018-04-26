@@ -1,0 +1,5 @@
+Metric 	Value 	
+Max percentage Humidity 	90 	
+Max Temp in C 	23 	
+Min Temp in C 	21 	
+Percipitation in mm 	0.25 	
